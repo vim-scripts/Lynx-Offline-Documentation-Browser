@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1007
+
+Inspired by the Info browser script, I present this script for bowsing html documentaion offline in a vim buffer via lynx. 
+
+:Lynx index.html will create your buffer, then browsing is a matter of using the usual "tag" keys Ctrl-] and Ctrl-T. A link is indicated by lynx as a number in square brackets. Place the cursor over this (on the '[') and use Ctrl-] to follow the link.
+
+It probably could be tidied up and also follow http: links as well as file: links but this is all I need to browse the wxPython docs offline which was what I wrote it for. Improvements welcome.
+
+This has been tested on a Slackware 9.1 box with Vim 6.2. YMMV.
+
